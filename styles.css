@@ -1,0 +1,81 @@
+:root {
+  --main-bg-dark: #131317;
+  --secondary-bg-gray: #1c1d1d;
+  --text-light: #e5e5e5;
+  --header-font: 'Roboto Mono', monospace;
+  --p-font: 'Montserrat', sans-serif;
+  --orange-text: #fca311;
+}
+html {
+  font-size: 14px;
+
+}
+body {
+  background: var(--main-bg-dark);
+}
+
+img.my-0.mr-md-auto.font-weight-normal {
+  max-width: 10em;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .main-header {
+    max-width: 90%;
+  }
+  img.my-0.mr-md-auto.font-weight-normal {
+    max-width: 30em;
+  }
+}
+.top-header {
+  text-align: left;
+  max-width: 80%;
+}
+#front-image {
+  max-width: 12em;
+  margin: auto;
+  box-shadow: 5px 10px #888888 !important;
+
+}
+/* .container {
+  max-width: 960px;
+} */
+.orange-text {
+  color: var(--orange-text);
+}
+h1 {
+  font-family: var(--header-font);
+}
+p {
+  font-family: var(--p-font);
+  color: var(--text-light);
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+.dark-bg {
+  background: var(--main-bg-dark) !important;
+}
+.gray-bg {
+  background: var(--secondary-bg-gray);
+}
+
+.bottom-seperator {
+  border-bottom: solid 2px #fca311;
+}
+
+.text-light {
+  color: var(--text-light); 
+}
+
+.border-container {
+  border: solid 5px var(--orange-text);
+  max-width: 11em;
+}
+
+.top-container-row {
+  margin: auto;
+}
