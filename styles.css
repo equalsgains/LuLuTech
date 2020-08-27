@@ -4,7 +4,7 @@
   --text-light: #e5e5e5;
   --header-font: 'Roboto Mono', monospace;
   --p-font: 'Montserrat', sans-serif;
-  --orange-text: #fca311;
+  --orange-text: #11e4fc;
 }
 html {
   font-size: 14px;
@@ -17,6 +17,47 @@ body {
 img.my-0.mr-md-auto.font-weight-normal {
   max-width: 10em;
 }
+
+
+.orange-text {
+  color: var(--orange-text);
+}
+h1 {
+  font-family: var(--header-font);
+}
+p {
+  font-family: var(--p-font);
+  color: var(--text-light);
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+.dark-bg {
+  background: var(--main-bg-dark) !important;
+}
+.gray-bg {
+  background: var(--secondary-bg-gray);
+}
+
+.bottom-seperator {
+  border-bottom: solid 2px var(--orange-text);
+}
+
+.text-light {
+  color: var(--text-light); 
+}
+
+.border-container {
+  border: solid 5px var(--orange-text);
+  max-width: 11em;
+}
+
+.top-container-row {
+  margin: auto;
+}
+
+
 
 @media (min-width: 768px) {
   html {
@@ -42,40 +83,3 @@ img.my-0.mr-md-auto.font-weight-normal {
 /* .container {
   max-width: 960px;
 } */
-.orange-text {
-  color: var(--orange-text);
-}
-h1 {
-  font-family: var(--header-font);
-}
-p {
-  font-family: var(--p-font);
-  color: var(--text-light);
-}
-
-.card-deck .card {
-  min-width: 220px;
-}
-.dark-bg {
-  background: var(--main-bg-dark) !important;
-}
-.gray-bg {
-  background: var(--secondary-bg-gray);
-}
-
-.bottom-seperator {
-  border-bottom: solid 2px #fca311;
-}
-
-.text-light {
-  color: var(--text-light); 
-}
-
-.border-container {
-  border: solid 5px var(--orange-text);
-  max-width: 11em;
-}
-
-.top-container-row {
-  margin: auto;
-}
